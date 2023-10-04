@@ -14,4 +14,11 @@ avec les valeurs 4 et 5 selon qu'elles sont de type nombre ou de type chaîne  :
 - que se passe-t-il si on entoure toute l'expression (VALEUR OPÉRANDE VALEUR) de guillemets ? Pourquoi ?
 */
 
-
+const somme = 4+5;
+console.log(`l'opération est alors une somme et le résultat est ${somme}`)
+const chaine = '4' + '5';
+console.log(`l'opération met alors les 2 caractères les uns à cotés des autres ce qui donne ${chaine}`)
+const mixte = '4' + 5;
+console.log(`l'opération ne donne rien car on ne doit pas mélanger 2 types de valeurs, le résultat est donc ${mixte}`);
+const test = 'const mixte = \'4\' + 5;';
+console.log(`si on entoure toute l'expression par des guillemets, elle devient alors une chaine de caractères car les guillemets permettent au programme de reconnaitre une chaine de caractères. Cela donne donc ${test}`)
