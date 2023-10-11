@@ -1,6 +1,6 @@
 /*****************************
-* CODING CHALLENGE 1
-*/
+ * CODING CHALLENGE 1
+ */
 
 /*
 
@@ -19,14 +19,25 @@ Mark est plus élevé que celui de John ? true").
 
 BONNE CHANCE 😀
 */
-const poidsJohn = 70;
-const poidsMark = 75;
-const tailleJohn = 1.78;
-const tailleMark = 1.69;
+/*const poidsJohn = prompt('Quel est le poids de John');
+const poidsMark = prompt('Quel est le poids de Mark');
+const tailleJohn = prompt('Quel est la taille de John');
+const tailleMark = prompt('Quel est la taille de Mark');
 const bmiJohn = poidsJohn / (tailleJohn*tailleJohn);
-const bmiMark = poidsMark / (tailleMark*tailleMark);
-console.log(bmiJohn, bmiMark);
-const bmiResultat = true;
-console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${bmiResultat}`);
+const bmiMark = poidsMark / (tailleMark*tailleMark);*/
+
+
+const bmiJohn = 10;
+const bmiMark = 10;
+console.log(bmiMark, bmiJohn);
+if (bmiMark < bmiJohn) {
+    console.log(`Le Bmi de Mark (${bmiMark}) est inférieur à celui de John (${bmiJohn})`);
+} else if (bmiMark === bmiJohn) {
+    console.log(`Le Bmi de Mark (${bmiMark}) est égal à celui de John (${bmiJohn})`);
+} else {
+    console.log(`Le Bmi de Mark (${bmiMark}) est supérieur à celui de John (${bmiJohn})`);
+}
+
+
 
 
